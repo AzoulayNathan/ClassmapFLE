@@ -1,0 +1,52 @@
+{
+  "name": "ClassObservation",
+  "type": "object",
+  "properties": {
+    "class_id": {
+      "type": "string",
+      "title": "Classe"
+    },
+    "observation_date": {
+      "type": "string",
+      "title": "Date d'observation"
+    },
+    "observation_type": {
+      "type": "string",
+      "enum": [
+        "quick",
+        "standard",
+        "complete"
+      ],
+      "title": "Type"
+    },
+    "focus": {
+      "type": "string",
+      "enum": [
+        "oral",
+        "written",
+        "comprehension",
+        "vocabulary",
+        "grammar",
+        "instructions",
+        "mixed"
+      ],
+      "title": "Focus"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "completed"
+      ],
+      "default": "draft",
+      "title": "Statut"
+    },
+    "notes": {
+      "type": "string",
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "class_id"
+  ]
+}

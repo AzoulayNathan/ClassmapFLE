@@ -1,0 +1,137 @@
+{
+  "name": "LearnerObservation",
+  "type": "object",
+  "properties": {
+    "class_id": {
+      "type": "string",
+      "title": "Classe"
+    },
+    "learner_id": {
+      "type": "string",
+      "title": "Apprenant"
+    },
+    "observation_id": {
+      "type": "string",
+      "title": "Observation"
+    },
+    "oral_confidence": {
+      "type": "string",
+      "enum": [
+        "solide",
+        "correct",
+        "fragile",
+        "bloqu\u00e9",
+        "non observ\u00e9"
+      ],
+      "title": "Confiance orale"
+    },
+    "oral_production": {
+      "type": "string",
+      "enum": [
+        "solide",
+        "correct",
+        "fragile",
+        "bloqu\u00e9",
+        "non observ\u00e9"
+      ],
+      "title": "Production orale"
+    },
+    "written_production": {
+      "type": "string",
+      "enum": [
+        "solide",
+        "correct",
+        "fragile",
+        "bloqu\u00e9",
+        "non observ\u00e9"
+      ],
+      "title": "Production \u00e9crite"
+    },
+    "comprehension": {
+      "type": "string",
+      "enum": [
+        "solide",
+        "correct",
+        "fragile",
+        "bloqu\u00e9",
+        "non observ\u00e9"
+      ],
+      "title": "Compr\u00e9hension"
+    },
+    "vocabulary": {
+      "type": "string",
+      "enum": [
+        "solide",
+        "correct",
+        "fragile",
+        "bloqu\u00e9",
+        "non observ\u00e9"
+      ],
+      "title": "Vocabulaire"
+    },
+    "grammar_accuracy": {
+      "type": "string",
+      "enum": [
+        "solide",
+        "correct",
+        "fragile",
+        "bloqu\u00e9",
+        "non observ\u00e9"
+      ],
+      "title": "Pr\u00e9cision grammaticale"
+    },
+    "instruction_comprehension": {
+      "type": "string",
+      "enum": [
+        "solide",
+        "correct",
+        "fragile",
+        "bloqu\u00e9",
+        "non observ\u00e9"
+      ],
+      "title": "Compr\u00e9hension des consignes"
+    },
+    "autonomy": {
+      "type": "string",
+      "enum": [
+        "solide",
+        "correct",
+        "fragile",
+        "bloqu\u00e9",
+        "non observ\u00e9"
+      ],
+      "title": "Autonomie"
+    },
+    "error_reaction": {
+      "type": "string",
+      "enum": [
+        "solide",
+        "correct",
+        "fragile",
+        "bloqu\u00e9",
+        "non observ\u00e9"
+      ],
+      "title": "R\u00e9action \u00e0 l'erreur"
+    },
+    "participation": {
+      "type": "string",
+      "enum": [
+        "solide",
+        "correct",
+        "fragile",
+        "bloqu\u00e9",
+        "non observ\u00e9"
+      ],
+      "title": "Participation"
+    },
+    "notes": {
+      "type": "string",
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "class_id",
+    "learner_id",
+    "observation_id"
+  ]
+}
